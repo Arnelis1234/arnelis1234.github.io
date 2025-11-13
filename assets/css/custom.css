@@ -1,0 +1,506 @@
+
+
+/* Nauja šriftų šeima visai svetainei */
+* {
+    font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ============================================
+   ANTRAŠČIŲ STILIAI
+   ============================================ */
+
+/* H1 - Pagrindinė antraštė */
+h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    color: #0153a5;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+/* H2 - Sekcijų antraštės */
+h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #00ff1a;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+    margin-bottom: 1.2rem;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* H3 - Poseskcijų antraštės */
+h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f2ff00;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #16a085;
+    padding-left: 0.8rem;
+}
+
+/* H4 - Mažesnės antraštės */
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin-bottom: 0.8rem;
+    text-decoration: underline;
+    text-decoration-color: #f39c12;
+    text-underline-offset: 4px;
+}
+
+/* H5 - Antraštės su šešėliu */
+h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #b300ff;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.7rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* H6 - Mažiausios antraštės */
+h6 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #00ffe1;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+/* Pagrindinio teksto stilius */
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ff0000;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+}
+
+/* Paryškinto teksto stilius */
+strong, b {
+    font-weight: 700;
+    color: #4000ff;
+    background-color: rgba(231, 76, 60, 0.1);
+    padding: 0 2px;
+}
+
+/* Pašviesto teksto stilius */
+em, i {
+    font-style: italic;
+    color: #3498db;
+}
+
+
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+
+
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 25px;
+    bottom: 25px;
+    z-index: 99999;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 3px solid #2d3436;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Comic Sans MS', 'Comic Neue', cursive, sans-serif;
+}
+
+
+
+.scroll-top i {
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.scroll-top:hover {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    border-color: #ffffff;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 10px 25px rgba(116, 185, 255, 0.4);
+}
+.scroll-top:active {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 5px 15px rgba(116, 185, 255, 0.3);
+    background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+}
+
+
+
+
+
+
+.header .logo h1 {
+  font-size: 26px;
+  margin: 0;
+  font-weight: 500;
+  color:#1100fb ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-table {
+    margin: 0 auto;
+    width: 80%; /* arba kitas norimas plotis */
+    font-size: 16px;
+    color: #ff00f7;
+}
+
+.price{
+       font-size: 28px;
+    color: #ce0303; 
+}
+
+
+.services-table th {
+    color: rgb(12, 224, 47);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.services-table th,
+.services-table td {
+    padding: 16px; /* vienodi užpildai */
+    text-align: center; /* lygiavimas centre */
+    border: 1px solid #e1e1e1;
+}
+
+.services-table tbody tr:hover {
+    background-color: #f7f7f8;
+    transform: scale(1.01);
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+/* Naujas mygtuko stilius */
+.btn-view-work {
+    background: linear-gradient(135deg, #ff006e, #ffbe0b) !important;
+    border: 3px solid #ff006e !important;
+    color: rgb(160, 0, 0) !important;
+    border-radius: 20px !important;
+    padding: 14px 28px !important;
+    font-weight: 800 !important;
+    font-family: 'Comic Sans MS', cursive !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    box-shadow: 0 6px 20px rgba(255, 0, 110, 0.3) !important;
+}
+
+.btn-view-work:hover {
+    background: linear-gradient(135deg, #ffbe0b, #ff006e) !important;
+    border-color: #ffbe0b !important;
+    transform: translateY(-3px) scale(1.05) !important;
+    box-shadow: 0 10px 30px rgba(255, 190, 11, 0.4) !important;
+    color: #ff006e !important;
+}
+
+.btn-view-work:hover i {
+    transform: translateX(8px) rotate(360deg) !important;
+    transition: transform 0.5s ease !important;
+}
+
+/* ============================================
+   VERTIKALIOS NAVIGACIJOS JUOSTOS STILIAI
+   ============================================ */
+
+
+.navmenu  {
+  position: fixed;
+
+  margin: 0 15px;
+ 
+}
+
+.navmenu > ul > li {
+  position: relative;
+
+  margin: 0 15px;
+}
+
+
+.navmenu > ul {
+  counter-reset: main-counter; /* Nustato main-counter = 0 */
+}
+
+/* 2. Counter didinimas kiekviename li elemente */
+.navmenu > ul > li {
+  counter-increment: main-counter; /* Padidina main-counter +1 */
+}
+
+/* 3. Counter rodymas pseudo-elemente */
+.navmenu > ul > li > a::before {
+  content: counter(main-counter) "."; /* Rodo counter reikšmę */
+}
+
+.navmenu > ul > li > a,
+.navmenu > ul > li > a.active,
+.navmenu > ul > li > a:hover,
+.navmenu > ul > li > a.active:hover {
+    display: flex;
+    align-items: center;
+    color: #cd0000 !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+.navmenu ul {
+  list-style: none; /* Pašalina visus standartinius žymeklius */
+  padding-left: 0;
+
+    
+ 
+
+}
+
+
+
+
+.navmenu > ul > li > ul > li > ul li a::before {
+  content: "○"; /* Tuščias apskritimas */
+  color: #764ba2;
+  font-size: 10px;
+}
+
+
+.navmenu > ul > li > ul li a:hover::before {
+  color: #764ba2;
+  transform: translateY(-50%) scale(1.2);
+}
+
+.navmenu > ul > li > ul > li > ul li a:hover::before {
+  content: "●"; /* Hover metu pakeičia į pilną apskritimą */
+  color: #667eea;
+}
+
+
+
+
+
+
+
+
+
+.about .facts-wrap .fact-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  background: var(--surface-color);
+  color:#ff0000 ;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+.about.section {
+    padding: 80px 0;
+}
+
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.about .intro-content{
+  margin-bottom: 60px;
+    background: #12b0b8;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgb(236, 6, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resume.section {
+    padding: 100px 0;
+}
+
+.resume .section-title {
+    margin-bottom: 60px;
+}
+
+
+.resume .section-title h2 {
+    margin-bottom: 15px;
+}
+
+.resume-navigation {
+    margin-bottom: 60px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.08);
+}
+
+
+.tab-content.resume-content {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    border: 1px solid #ff0ad6;
+}
+
+.section-intro {
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #31ff07;
+}
+
+
+
+
+
+
+
+
+/* Section Title tarpai */
+.portfolio .section-title {
+    margin-bottom: 60px;
+}
+
+.portfolio .section-title h2 {
+    margin-bottom: 15px;
+}
+
+/* Filters stilius */
+.portfolio-filters-wrapper {
+    margin-bottom: 50px;
+}
+
+.portfolio-filters {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-flex;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.portfolio-filters li {
+    background: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    font-weight: 500;
+}
+
+.portfolio-filters li.filter-active,
+.portfolio-filters li:hover {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-color: #667eea;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+
+/* Portfolio grid tarpai */
+.portfolio-grid {
+    gap: 30px !important;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    height: 100%;
+}
